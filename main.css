@@ -1,0 +1,137 @@
+
+.subtitulo-intro{
+    color: #f0f8ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 60px;
+}
+.parrafo-intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding: 30px;
+    
+}
+.imagen-inicio{
+    width: 300px;
+    padding-top: 30px;
+    
+}
+.footer-home{
+    width: 100%;
+    height: 100px;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fcf8f8;
+}
+.fa-brands{
+    padding: 0 10px;
+    font-size: 30px;
+    color: #000000;
+}
+.album{
+    padding-top: 20px;
+    
+}
+.fa-solid{
+    padding-top: 30px;
+}
+.subtitulo-carrera{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+}
+.parrafo-carrera{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.imagen-concierto{
+    width: 300px;
+}
+.subtitulo-concierto{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.concierto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.imagen-uno{
+    width: 300px;
+}
+.imagen-dos{
+    width: 145px;
+}
+.imagen-tres{
+    width: 145px;
+}
+.imagen-cuatro{
+    width: 145px;
+}
+.imagen-cinco{
+    width: 145px;
+    height: 145px;
+}
+@media screen and (min-width:375px){
+    .imagen-inicio{
+        width: 350px;
+    }
+    .imagen-concierto{
+        width: 350px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+}
+@media screen and (min-width:768px){
+    .imagen-uno{
+     width:350px ;
+    }
+    .imagen-dos{
+     width:180px ;
+     padding-top: 5px;
+    }
+    .imagen-tres{
+     width:180px ;
+     padding-top: 5px;
+    }
+    .imagen-cuatro{
+     width:180px ;
+     padding-top: 5px;
+    }
+    .imagen-cinco{
+     width:180px ;
+     height: 180px;
+     padding-top: 5px;
+    }
+}
+@media screen and (min-width:1200px){
+    .imagen-uno{
+        width:450px ;
+        padding-top: 10px;
+       }
+       .imagen-dos{
+        width:250px ;
+        
+       }
+       .imagen-tres{
+        width:250px ;
+        
+       }
+       .imagen-cuatro{
+        width:250px ;
+        
+       }
+       .imagen-cinco{
+        width:250px ;
+        height: 250px;
+        
+       }
+}
